@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+<link rel="stylesheet" href="UserSearch.css">
+</head>
+<body>
+<section class="panel">
+    <section class="autocomplete">
+        <input id="searchStr" onfocus="this.value=''" type="text" name="searchStr" placeholder="Search">
+        <input type="image" src="cancel.png" class="clearInput">
+    </section>
+    <section class="resultHeader">
+        <h3>Search History</h3>
+        <a href="#" id="clear-all">Clear search history</a>
+    </section>
+    <table id="searchResult" cellpadding = 10 ></table>
+</section>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+<script src="UserSearch.js"></script>
+</body>
+</html> 
